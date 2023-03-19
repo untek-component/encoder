@@ -1,0 +1,21 @@
+{
+  "name": "untek-component/encoder",
+  "type": "extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zn Developer",
+      "email": "zndev@ya.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    
+  },
+  "autoload": {
+    "psr-4": {
+      "Untek\\Component\\Encoder\\": "src",
+      "Untek\\Component\\Encoder\\Tests\\": "tests"
+    }
+  }
+}
