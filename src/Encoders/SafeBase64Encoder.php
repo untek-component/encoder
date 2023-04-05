@@ -2,8 +2,8 @@
 
 namespace Untek\Component\Encoder\Encoders;
 
+use Untek\Component\Encoder\Helpers\SafeBase64Helper;
 use Untek\Core\Contract\Encoder\Interfaces\EncoderInterface;
-use Untek\Crypt\Base\Domain\Helpers\SafeBase64Helper;
 
 /**
  * Безопасный Base64-сериализатор для URL.
